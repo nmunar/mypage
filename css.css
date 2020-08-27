@@ -100,46 +100,6 @@ footer {
   align-content: center;
 }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) 
-{ 
-  
- }
-
- /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) 
-{  
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) 
-{ }
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px)
-{ 
-  
- }
- @media ( min-height: 500px) 
-{ 
-
- }
-
- /*Medium devices (tablets, 768px and up)*/
-@media ( min-height: 50px) 
-{  
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media ( min-height: 50px) 
-{ }
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media( min-height: 50px) 
-{ 
-  
- }
-
 /* ANIMATION*/
 #principal {
   -webkit-animation: appear 5s ease alternate forwards;
