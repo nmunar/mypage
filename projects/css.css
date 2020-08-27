@@ -1,8 +1,9 @@
 h1,
 p,
-h5 {
+h5,
+h2 {
   text-align: center;
 }
 header {
-  height: 75px;
+  height: 80px;
 }
