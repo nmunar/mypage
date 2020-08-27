@@ -1,7 +1,18 @@
 h1,
-p {
+p,
+h3 {
   text-align: center;
 }
 header {
   height: 80px;
+}
+.carousel .item {
+  height: 200px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px;
 }

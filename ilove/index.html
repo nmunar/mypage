@@ -1,111 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Lily Duque</title>
-    <meta name="author" content="Lily Duque" />
-    <meta name="description" content="" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="css.css" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Lily Duque</title>
+  <meta name="author" content="Lily Duque" />
+  <meta name="description" content="" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css.css" />
 
-  <body>
-    <header>
-      <!-- NavBar -->
-      <nav
-        class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-dark"
-      >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarToggleExternalContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../aboutme/index.html">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../projects/index.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../ilove/index.html">I like </a>
-            </li>
-          </ul>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+  <script>
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+      x.play();
+    }
+
+    function pauseAudio() {
+      x.pause();
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <!-- NavBar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../aboutme/index.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../projects/index.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ilove/index.html">I like </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h1>I like ...</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <h3>To play tennis</h3>
         </div>
-      </nav>
-    </header>
-    <main>
-      <h1>I like ...</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col align-self-center">
-            <h3>To play tennis</h3>
-          </div>
-          <div class="col align-self-center">
-            <img src="./assets/tenis2.jpg" alt="tenis" class="img-fluid" />
+        <div class="col align-self-center">
+          <img src="./assets/tenis2.jpg" alt="tenis" class="img-fluid" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col align-self-center">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1500">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/carasRaras/0d020be6-abc1-4a64-9144-42bb2ee3ee56.jpg" alt="grimace1"
+                  class="d-block w-100" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carasRaras/1.jpg" class="d-block w-100" alt="grimace2" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carasRaras/42b1083c-19db-4b5a-add2-1290321ca52d.jpg" class="d-block w-100"
+                  alt="grimace3" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carasRaras/48fdfd6e-1f69-4129-bb07-e635cea29bb8.jpg" class="d-block w-100"
+                  alt="grimace4" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carasRaras/649bc758-adfe-497e-8f8c-1493d74605b6.jpg" class="d-block w-100"
+                  alt="grimace5" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carasRaras/7fd0fa97-8d06-43dd-945a-273f3c4de64b.jpg" class="d-block w-100"
+                  alt="grimace5" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carasRaras/aa509226-8ac2-4546-942f-675aebd92ad6.jpg" class="d-block w-100"
+                  alt="grimace5" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carasRaras/dbcbc472-a956-48e1-8262-5b30b9148e8f.jpg" class="d-block w-100"
+                  alt="grimace5" />
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row ">
-          <div class="col align-self-center ">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1000">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./assets/carasRaras/0d020be6-abc1-4a64-9144-42bb2ee3ee56.jpg" alt="grimace1" class="d-block w-100 " />
+        <div class="col align-self-center">
+          <h3>To grimace</h3>
+        </div>
+      </div>
+    </div>
+
+    <h3>To spend time with</h3>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#schoolfriends" aria-expanded="true" aria-controls="collapseOne">
+              School friends
+            </button>
+          </h2>
+        </div>
+
+        <div id="schoolfriends" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col align-self-center">
+                  <audio controls contoler>
+                    <source src="lacombi.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                  </audio>
                 </div>
-                <div class="carousel-item">
-                  <img src="assets/carasRaras/1.jpg" class="d-block w-100 " alt="grimace2" />
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/carasRaras/42b1083c-19db-4b5a-add2-1290321ca52d.jpg" class="d-block w-100 "
-                    alt="grimace3" />
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/carasRaras/48fdfd6e-1f69-4129-bb07-e635cea29bb8.jpg" class="d-block w-100 " alt="grimace4" />
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/carasRaras/649bc758-adfe-497e-8f8c-1493d74605b6.jpg" class="d-block w-100 " alt="grimace5" />
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/carasRaras/7fd0fa97-8d06-43dd-945a-273f3c4de64b.jpg" class="d-block w-100 " alt="grimace5" />
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/carasRaras/aa509226-8ac2-4546-942f-675aebd92ad6.jpg" class="d-block w-100 " alt="grimace5" />
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/carasRaras/dbcbc472-a956-48e1-8262-5b30b9148e8f.jpg" class="d-block w-100 " alt="grimace5" />
+                <div class="col align-self-center">
+
+                  <div id="carouselExampleSlidesOnly" class="carousel slide d-sm-block" data-ride="carousel"
+                    data-interval="1500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/amigoscolegio.jpg" alt="school friends1" class="d-block w-100" />
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="./assets/amigoscole.jpg" alt="school friends2" class="d-block w-100" />
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="./assets/amigoscole3.jpg" alt="school friends3" class="d-block w-100" />
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/amigoscole4.jpg" alt="school friend4" class="d-block w-100" />
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="./assets/amigoscole5.jpg" alt="school friends5" class="d-block w-100" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col align-self-center">
-            <h3>To grimace</h3>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+            data-target="#universityfriends" aria-expanded="false" aria-controls="collapseTwo">
+            University friends
+          </button>
+        </h2>
+      </div>
+      <div id="universityfriends" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col align-self-center">
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide d-sm-block" data-ride="carousel"
+                  data-interval="1500">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./assets/amigosu.jpg" alt="u friends 1" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item ">
+                      <img src="./assets/amigosu2.jpg" alt="u friends 2 " class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item ">
+                      <img src="./assets/amigosu4.jpg" alt="u friends 3" class="d-block w-100" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col align-self-center">
+                <audio controls contoler>
+                  <source src="m83.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+
+              <div class="col align-self-center">
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide d-sm-block" data-ride="carousel"
+                  data-interval="1500">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./assets/amigosu21.jpg" alt="u friends 3" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item ">
+                      <img src="./assets/amigosu22.jpg" alt="u friends 4 " class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item ">
+                      <img src="./assets/amigosu23.jpg" alt="u friends 5" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item ">
+                      <img src="./assets/amigosu25.jpg" alt="u friends 5" class="d-block w-100" />
+                    </div>
+                    <div class="carousel-item ">
+                      <img src="./assets/amigosu23.jpg" alt="u friends 5" class="d-block w-100" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
-      <h3>
-        Spending time with
-      </h3>
-    </main>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Family
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
 
-    <!-- <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col align-self-center">
+                  <audio controls contoler>
+                    <source src="over.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="col align-self-center">
+
+                  <div id="carouselExampleSlidesOnly" class="carousel slide d-sm-block" data-ride="carousel"
+                    data-interval="1500">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/familia1.jpg" alt="family 1" class="d-block w-100" />
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="./assets/familia2.jpg" alt="samily 2 " class="d-block w-100" />
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="./assets/familia3.jpg" alt=" family 3" class="d-block w-100" />
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="./assets/familia4.jpg" alt=" family 4" class="d-block w-100" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- <footer>
     <img src="assets/instagram.png" alt="Logo instagram" width="20" title="Logo instagram" />
     <a href="https://www.instagram.com/lily.avd/">@lily.avd</a>
     <img src="assets/facebook.png" alt="Logo facebook" width="20" title="Logo facebook" />
@@ -114,22 +284,17 @@
     <a href="https://github.com/LilyAita">LilyAita</a>
   </footer> -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
