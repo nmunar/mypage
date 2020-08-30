@@ -21,3 +21,5 @@ Pruebas:
 ![alt text](https://github.com/nmunar/mypage/blob/review_nmunar/Screenshots%20of%20corrections/Feed2.PNG)
 ![alt text](https://github.com/nmunar/mypage/blob/review_nmunar/Screenshots%20of%20corrections/Feed3.PNG)
 ![alt text](https://github.com/nmunar/mypage/blob/review_nmunar/Screenshots%20of%20corrections/Feed4.PNG)
+
+En general la pagina está muy bien organizada con los respectivos css bien nombrados, codigo identado y claro con las etiquietas de HTML5. Muy bien !
